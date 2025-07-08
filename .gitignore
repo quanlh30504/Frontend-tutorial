@@ -1,0 +1,6 @@
+
+# VS Code settings (optional)
+.vscode/
+
+node_modules/
+dist/
