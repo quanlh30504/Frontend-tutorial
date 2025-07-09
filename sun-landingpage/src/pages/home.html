@@ -570,7 +570,7 @@
         let currentEventSlide = 0;
 
         function updateEventSlider() {
-            const slideWidth = eventSlides[0].offsetWidth + (window.innerWidth < 768 ? 16 : 32); // 16px space-x-4, 32px space-x-8
+            const slideWidth = eventSlides[0].offsetWidth + (window.innerWidth < 768 ? 16 : 32); 
             eventSlider.style.transform = `translateX(-${currentEventSlide * slideWidth}px)`;
         }
 
